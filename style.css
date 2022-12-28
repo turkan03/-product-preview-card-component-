@@ -196,4 +196,15 @@ p {
   .content-subheading {
     margin-bottom: 1.25rem;
   }
-} ;
+}
+
+/* for screen readers */
+
+.sr-only {
+  position: absolute;
+  left: 10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+}
