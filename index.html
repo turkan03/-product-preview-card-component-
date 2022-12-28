@@ -16,42 +16,39 @@
   </head>
   <body>
     <main>
-      <section class="container">
-        <div class="img-container">
-          <picture>
-            <source
-              media="(min-width: 752px)"
-              srcset="images/image-product-desktop.jpg"
-            />
-            <img
-              src="images/image-product-mobile.jpg"
-              alt="Botel of the perfume from Gabrielle Essence"
-            />
-          </picture>
-        </div>
-        <div class="content-container">
-          <span class="content-subheading">Perfume</span>
-          <h1>Gabrielle Essence Eau De Parfum</h1>
-          <p>
-            A floral, solar and voluptuous interpretation composed by Olivier
-            Polge, Perfumer-Creator for the House of CHANEL.
+      <picture>
+        <source
+          media="(min-width: 752px)"
+          srcset="images/image-product-desktop.jpg"
+        />
+        <img
+          src="images/image-product-mobile.jpg"
+          alt="Botel of the perfume from Gabrielle Essence"
+        />
+      </picture>
+
+      <div class="content-container">
+        <span class="content-subheading">Perfume</span>
+        <h1>Gabrielle Essence Eau De Parfum</h1>
+        <p>
+          A floral, solar and voluptuous interpretation composed by Olivier
+          Polge, Perfumer-Creator for the House of CHANEL.
+        </p>
+        <div class="price-container">
+          <p class="new-price">$149.99</p>
+          <p class="old-price">
+            <del
+              >$169.99<span class="sr-only"
+                >The previous price was 169.99</span
+              ></del
+            >
           </p>
-          <div class="price-container">
-            <p class="new-price">$149.99</p>
-            <p class="old-price">
-              <del
-                >$169.99<span class="sr-only"
-                  >The previous price was 169.99</span
-                ></del
-              >
-            </p>
-          </div>
-          <button class="btn">
-            <img src="/images/icon-cart.svg" alt="" class="icon" />
-            Add to Cart
-          </button>
         </div>
-      </section>
+        <button class="btn">
+          <img src="/images/icon-cart.svg" alt="" class="icon" />
+          Add to Cart
+        </button>
+      </div>
     </main>
   </body>
 </html>
