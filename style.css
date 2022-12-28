@@ -86,6 +86,10 @@ main {
   border-radius: 10px;
 }
 
+img {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
 /* content section */
 .content-container {
   margin: 1.5rem;
@@ -153,6 +157,12 @@ p {
     grid-template-columns: 1fr 1fr;
 
     max-width: 37.5rem;
+  }
+
+  img {
+    border-top-right-radius: 0;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
   }
 
   .btn {
