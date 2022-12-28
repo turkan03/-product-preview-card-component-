@@ -4,21 +4,15 @@ This is a solution to the [Product preview card component challenge on Frontend 
 
 ## Table of contents
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
+- [The challenge](#the-challenge)
+- [Screenshot](#screenshot)
+- [Links](#links)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
-
-## Overview
 
 ### The challenge
 
@@ -36,15 +30,12 @@ Users should be able to:
 - Solution URL: [Add solution URL here](https://github.com/turkan03/Product-preview-card-component.git)
 - Live Site URL: [Add live site URL here](https://product-preview-card-component-turkan.netlify.app)
 
-## My process
-
 ### Built with
 
 - Semantic HTML5 markup
 - CSS custom properties
 - Flexbox
 - CSS Grid
-- Mobile-first
 
 ### What I learned
 
@@ -52,11 +43,6 @@ Users should be able to:
 
 ```html
 <picture>
-  <source
-    media="(max-width: 751
-              px)"
-    srcset="images/image-product-mobile.jpg"
-  />
   <source
     media="(min-width: 752px)"
     srcset="images/image-product-desktop.jpg"
@@ -69,7 +55,19 @@ Users should be able to:
 </picture>
 ```
 
--practice start coding with Mobile first design.
+-how make content what can see only screen readers
+
+```css
+.sr-only {
+  position: absolute;
+  left: 10000px;
+  width: 1px;
+  height: 1px;
+  top: auto;
+  overflow: hidden;
+}
+```
+
 -practice FlexBox and CSS Grid.
 
 ### Continued development
@@ -78,9 +76,9 @@ I want to continue focusing on in Responsive design and clean code;
 
 ### Useful resources
 
-- [Example resource 1](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) - This helped me for understand how work with images in code. I really liked this website and will use it going forward.
+- [Resource 1](https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images) - This helped me for understand how work with images in code. I really liked this website and will use it going forward. -[Resource 2](https://www.freecodecamp.org/learn/responsive-web-design/applied-accessibility/make-elements-only-visible-to-a-screen-reader-by-using-custom-css) - This helped me for understand how implement style for screen readers and how it is work.
 
 ## Author
 
-- Website - [@turkan03](https://github.com/turkan03)
+- Website - [GitHub](https://github.com/turkan03)
 - Frontend Mentor - [@turkan03](https://www.frontendmentor.io/profile/turkan03)
