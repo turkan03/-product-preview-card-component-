@@ -67,6 +67,9 @@ h6 {
 /* general style */
 
 body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 0.875rem;
   font-family: "Montserrat", sans-serif;
   line-height: 2rem;
@@ -76,33 +79,11 @@ body {
   color: #6c7289;
 }
 
-img {
-  max-width: 100%;
-  height: auto;
-  display: block;
-}
-
 main {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 1.75rem 1rem;
-}
-
-.container {
+  display: grid;
   max-width: 21.4375rem;
   background-color: hsl(0, 0%, 100%);
   border-radius: 10px;
-}
-/* img section */
-
-.img-container {
-  min-height: 15rem;
-}
-
-.img-container img {
-  border-top-left-radius: 10px;
-  border-top-right-radius: 10px;
 }
 
 /* content section */
@@ -168,20 +149,10 @@ p {
 
 @media (min-width: 47em) {
   main {
-    height: 100vh;
-  }
-
-  .container {
     display: grid;
     grid-template-columns: 1fr 1fr;
 
     max-width: 37.5rem;
-    min-height: 28.125rem;
-  }
-
-  .img-container img {
-    border-bottom-left-radius: 10px;
-    border-top-right-radius: 0;
   }
 
   .btn {
