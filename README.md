@@ -12,7 +12,6 @@ This is a solution to the [Product preview card component challenge on Frontend 
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
 
 ### The challenge
 
@@ -27,8 +26,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/turkan03/Product-preview-card-component.git)
-- Live Site URL: [Add live site URL here](https://product-preview-card-component-turkan.netlify.app)
+- Solution URL: [GitHub](https://github.com/turkan03/Product-preview-card-component.git)
+- Live Site URL: [GitHub Pages](https://turkan03.github.io/Product-preview-card-component/)
 
 ### Built with
 
